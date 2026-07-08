@@ -1,0 +1,13 @@
+{
+  "name": "tsdown-cjs-shim-leak",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "tsdown",
+    "repro": "node -e \"require('./dist/index.cjs')\""
+  },
+  "devDependencies": {
+    "tsdown": "0.22.3"
+  }
+}
